@@ -4,12 +4,6 @@
 
 ---
 
-## 🌐 Live Demo
-
-(If deployed) 👉 [Visit Jobify](https://your-live-link.com)
-
----
-
 ## 🚀 Features
 
 ### 🧑 Job Seeker
