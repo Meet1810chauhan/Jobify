@@ -42,6 +42,9 @@ const Jobs = () => {
             })}
         </div>
       </div>
+      {jobs.jobs && jobs.jobs.length === 0 && (
+        <p>No jobs found at the moment.</p>
+      )}
     </section>
   );
 };
