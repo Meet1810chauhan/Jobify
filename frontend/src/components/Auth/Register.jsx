@@ -88,6 +88,7 @@ const Register = () => {
                   placeholder="zk@gmail.com"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
+                  autoComplete="email"
                 />
                 <MdOutlineMailOutline />
               </div>
@@ -100,6 +101,7 @@ const Register = () => {
                   placeholder="12345678"
                   value={phone}
                   onChange={(e) => setPhone(e.target.value)}
+                  autoComplete="tel"
                 />
                 <FaPhoneFlip />
               </div>
@@ -112,6 +114,7 @@ const Register = () => {
                   placeholder="Your Password"
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
+                  autoComplete="new-password"
                 />
                 <RiLock2Fill />
               </div>
